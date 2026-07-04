@@ -143,12 +143,17 @@
         .section-header h2 { font-size: 3rem; font-weight: 800; background: linear-gradient(to right, #FFF, var(--lotus-pink)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0; }
         .section-header p { color: #C9BCCF; font-size: 1.2rem; margin-top: 15px; }
 
-        .flavor-banner-display {
-            width: 100%; height: 350px;
-            background: url('all-flavors-banner.jpg') center center/cover;
-            border-radius: 32px; margin-bottom: 50px; border: 1px solid var(--border-glass); box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+        /* Responsive Flavor Banner Image Styling */
+        .flavor-banner-img {
+            width: 100%; 
+            height: auto;
+            display: block;
+            border-radius: 32px; 
+            margin-bottom: 50px; 
+            border: 1px solid var(--border-glass); 
+            box-shadow: 0 20px 50px rgba(0,0,0,0.4);
         }
-
+        
         /* 3D Glassmorphism Flavor Cards */
         .flavors-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 35px; }
         .flavor-card { 
@@ -383,48 +388,49 @@
     </section>
 
     <div class="container">
-
+        
         <section id="flavors">
             <div class="section-header">
                 <h2>Our 6 Master-Crafted Flavors</h2>
                 <p>Artisanal seasonings mixed meticulously with vacuum-sealed crispy fox nuts.</p>
             </div>
             
-            <div class="flavor-banner-display"></div>
+            <!-- FIXED: Updated source filename to perfectly match your directory file layout -->
+            <img src="ALL%20FLAVOUR.jpeg" alt="Hindustan Lotus Master Flavors Banner" class="flavor-banner-img">
 
             <div class="flavors-grid">
                 <div class="flavor-card">
-                    <div class="flavor-image-frame" style="background-image: url('classic-salted.jpg');"></div>
+                    <div class="flavor-image-frame" style="background-image: url('SALTED.png');"></div>
                     <h3>Classic salt Salted</h3>
                     <p>Lightly roasted in premium white table butter with subtle accents of mineral pink rock salt.</p>
                 </div>
                 
                 <div class="flavor-card">
-                    <div class="flavor-image-frame" style="background-image: url('spicy-masala.jpg');"></div>
+                    <div class="flavor-image-frame" style="background-image: url('SPICY.png');"></div>
                     <h3>Spicy masala makhana</h3>
                     <p>An exotic, fiery spice landscape blending rich African chili heat with sharp, tangy profiles.</p>
                 </div>
                 
                 <div class="flavor-card">
-                    <div class="flavor-image-frame" style="background-image: url('magic-masala.jpg');"></div>
+                    <div class="flavor-image-frame" style="background-image: url('MAGIC.png');"></div>
                     <h3>magic masala makhana</h3>
                     <p>Enveloped inside rich, velvety layers of authentic premium cream cheese powder that melts instantly.</p>
                 </div>
                 
                 <div class="flavor-card">
-                    <div class="flavor-image-frame" style="background-image: url('peri-peri.jpg');"></div>
+                    <div class="flavor-image-frame" style="background-image: url('PERI.png');"></div>
                     <h3>peri peri makhana</h3>
                     <p>A beautifully balanced, smooth continental cream baseline accentuating fresh spring garden chives.</p>
                 </div>
                 
                 <div class="flavor-card">
-                    <div class="flavor-image-frame" style="background-image: url('tangy-tomato.jpg');"></div>
+                    <div class="flavor-image-frame" style="background-image: url('TANGY.png');"></div>
                     <h3>Tangy Tomato & Mint</h3>
                     <p>Sun-ripened, zesty field tomatoes processed alongside cooling, aromatic fresh native mint notes.</p>
                 </div>
                 
                 <div class="flavor-card">
-                    <div class="flavor-image-frame" style="background-image: url('pudina-masala.jpg');"></div>
+                    <div class="flavor-image-frame" style="background-image: url('PUDINA.png');"></div>
                     <h3>Pudina punch Masala</h3>
                     <p>A classic Indian street food blast driven by therapeutic local spices and intense refreshing mint leaf powder.</p>
                 </div>
